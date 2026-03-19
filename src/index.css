@@ -1,0 +1,56 @@
+:root {
+  --bg: #090b10;
+  --border: rgba(173, 181, 198, 0.14);
+  --text-strong: #f3f6fb;
+  --text-soft: #d5dbe6;
+  --text-muted: #8a93a5;
+  --accent-strong: #cbd5e1;
+  --shadow: none;
+  --font-sans: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-display: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-soft);
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 6rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(30, 41, 59, 0.32), transparent 35%),
+    linear-gradient(180deg, #0c1017 0%, #090b10 100%);
+}
+
+a,
+button {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
