@@ -67,6 +67,7 @@ export const skills = [
   'C#',
   'SQL',
   'JavaScript',
+  'TypeScript',
   'Node.js',
   'Next.js',
   'Tailwind',
