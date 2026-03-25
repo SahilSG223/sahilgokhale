@@ -55,7 +55,7 @@ export const projects = [
     image: mailblockImage,
     description:
       'An AI-driven email filtering system that classifies and organizes incoming messages to enhance productivity and reduce inbox clutter.',
-    stack: 'Python, FastAPI, Vite.js, Scikit-Learn, Pandas, Numpy, DistilBERT, GCP',
+    stack: 'Python, Pytorch, FastAPI, Vite.js, Scikit-Learn, Pandas, Numpy, DistilBERT, GCP',
     impact:
       'Built an email classification pipeline using a fine-tuned DistilBERT model to improve spam detection and inbox organization.',
   },
