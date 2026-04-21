@@ -4,6 +4,7 @@ import guhuzaLogo from '../assets/guhuza.png'
 import linkedinIcon from '../assets/linkedin.png'
 import mailblockImage from '../assets/mailblock.png'
 import trueBalanceImage from '../assets/truebalance.jpg'
+import palletLogo from '../assets/palletLogo.png'
 
 export const experiences = [
   {
@@ -24,6 +25,16 @@ export const experiences = [
     summary:
       'Optimized **MySQL and Pandas workflows**, built **Plotly dashboards in Docker**, and automated reporting across **10,000+ records** to improve stakeholder visibility.',
     period: 'Jun 2025 - Aug 2025',
+  },
+  {
+    org: 'Pallet Connect',
+    logoSrc: palletLogo,
+    logoAlt: 'Pallet Connect',
+    wordmark: 'Pallet Connect',
+    role: 'Data Analyst',
+    summary:
+      'Designed a **PowerBI dashboard** tracking **8+ environmental KPIs**, and **50,000 operational records**, consolidating multi-source data to eliminate **6+ hours** of weekly reporting after evaluating **4** leading BI tools for scalability.',
+    period: 'May 2025 - Aug 2025',
   },
 ]
 
