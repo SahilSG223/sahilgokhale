@@ -5,6 +5,7 @@ import linkedinIcon from '../assets/linkedin.png'
 import mailblockImage from '../assets/mailblock.png'
 import trueBalanceImage from '../assets/truebalance.jpg'
 import palletLogo from '../assets/palletLogo.png'
+import uwplannerImage from '../assets/uwplanner.png'
 
 export const experiences = [
   {
@@ -39,6 +40,18 @@ export const experiences = [
 ]
 
 export const projects = [
+  {
+    name: 'UWPlanner',
+    type: 'Academic Course Planning Tool',
+    image: uwplannerImage,
+    position: 'Co-Founder',
+    link: 'https://uwplanner.vercel.app/',
+    description:
+      'Built a degree planning tool for UW students using, validating course selections against degree requirements.',
+    stack: 'Typescript, Next.JS, Go, MySQL, Redis, Tailwind CSS, GraphQL API',
+    impact:
+      'Created a scalable planning workflow that helps Waterloo students map courses against degree requirements earlier, reduce manual checklist tracking, and make faster decisions around prerequisites, sequencing, and graduation progress.',
+  },
   {
     name: 'True Balance',
     type: 'Financial Planning Platform',
@@ -82,7 +95,7 @@ export const skills = [
   'Node.js',
   'Next.js',
   'Tailwind',
-  'Postgres',
+  'PostgreSQL',
   'Docker',
   'MongoDB',
   'Auth0',
@@ -94,6 +107,10 @@ export const skills = [
   'GCP',
   'Pytorch',
   'PowerBI',
+  'GraphQL',
+  'Redis',
+  'MySQL',
+  'Go',
 ]
 
 export const contactLinks = [
