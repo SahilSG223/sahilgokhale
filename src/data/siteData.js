@@ -121,6 +121,9 @@ export const skills = [
   'Redis',
   'MySQL',
   'Go',
+  'Pyspark',
+  'Apache Airflow',
+  'SAS',
 ]
 
 export const contactLinks = [
