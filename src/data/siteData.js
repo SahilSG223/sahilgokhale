@@ -6,8 +6,18 @@ import mailblockImage from '../assets/mailblock.png'
 import trueBalanceImage from '../assets/truebalance.jpg'
 import palletLogo from '../assets/palletLogo.png'
 import uwplannerImage from '../assets/uwplanner.png'
+import royalLogo from '../assets/royalbank.png'
 
 export const experiences = [
+  {
+    org: 'Royal Bank of Canada',
+    logoSrc: royalLogo,
+    logoAlt: 'Royal Bank of Canada',
+    role: 'Data Analyst',
+    summary:
+      'Migrated 6+ legacy **SAS** pipelines to **Python**, leveraging **AWS S3** and **SQL-based** data workflows. Analyzed and documented 80+ **Tableau** worksheets to identify KPIs and support data-driven decisions. Automated workflows using **Python** and **Apache Airflow DAGs**, reducing manual effort by 99%.',
+    period: 'Aug 2026 - Present',
+  },
   {
     org: 'CloudAct CPA Professional Corporation',
     logoSrc: cloudactLogo,
